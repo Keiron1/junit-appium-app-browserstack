@@ -1,20 +1,18 @@
 {
   "server": "hub.browserstack.com",
-  "user": "BROWSERSTACK_USERNAME",
-  "key": "BROWSERSTACK_ACCESS_KEY",
+  "user": "newcrosshealthca1",
+  "key": "RJywJxqnjYe1UJqSWeNr",
 
   "capabilities": {
     "build": "junit-browserstack",
     "name": "parallel_appium_test",
     "browserstack.debug": true,
-    "app": "bs://<hashed app-id>"
+    "app": "bs://c6c6341e1296c9afe3f180a2bce4e30dbde73ff8"
   },
 
   "environments": [{
     "device": "Google Pixel"
   },{
     "device": "Samsung Galaxy S7"
-  },{
-    "device": "Google Nexus 9"
   }]
 }
